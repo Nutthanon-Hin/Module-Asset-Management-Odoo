@@ -1,0 +1,16 @@
+<odoo>
+  <data noupdate="1">
+  
+    <record model="hin.asset.location">
+      <field name="name"> Home </field>
+      <field name="location_is_active" eval="True"/>
+    </record>
+
+  
+  
+  
+  
+  
+  
+  </data>
+</odoo>

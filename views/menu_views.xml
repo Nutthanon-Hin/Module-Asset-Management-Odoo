@@ -1,0 +1,48 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+
+    <menuitem name="Hin Asset" id="hin_asset_menu_root"/>
+
+    <!-- menu categories -->
+    
+    <menuitem 
+        name="Asset" 
+        id="menu_hin_asset_asset" 
+        parent="hin_asset_menu_root" 
+        action="hin_asset_action_window"
+    />
+    
+    
+    
+    <menuitem 
+        name="Asset Status" 
+        id="menu_hin_asset_status" 
+        parent="hin_asset_menu_root"
+        action="hin_asset_status_action_window" 
+    />
+    
+    
+    <menuitem 
+        name="Asset Location" 
+        id="menu_hin_asset_location" 
+        parent="hin_asset_menu_root"
+        action="hin_asset_location_action_window"
+    />
+    
+    
+    <menuitem 
+        name="Asset Category"
+        id="menu_hin_asset_category" 
+        parent="hin_asset_menu_root"
+        action="hin_asset_category_action_window"       
+    />
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="hin_asset.menu_1_list" parent="hin_asset.menu_1"
+              action="hin_asset.action_window"/>
+    <menuitem name="Server to list" id="hin_asset" parent="hin_asset.menu_2"
+              action="hin_asset.action_server"/>
+    -->
+  </data>
+</odoo>

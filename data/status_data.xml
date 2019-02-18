@@ -1,0 +1,25 @@
+<odoo>
+  <data noupdate="1">
+  
+    <record model="hin.asset.status">
+      <field name="name"> Available </field>
+      <field name="status_is_available" eval="True"/>
+    </record>
+    
+    <record model="hin.asset.status">
+      <field name="name"> Unavailable </field>
+      <field name="status_is_available" eval="False"/>
+    </record>
+  
+    <record model="hin.asset.status">
+      <field name="name"> Missing </field>
+      <field name="status_is_available" eval="False"/>
+    </record>  
+  
+  
+  
+  
+  
+  
+  </data>
+</odoo>
